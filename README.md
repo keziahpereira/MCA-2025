@@ -2,9 +2,9 @@
 # \[Music Curation and Analytics Introduction\]
 <!-- Version 1.0 -->
 
-#Week1 
-Lab1 (Group Task)
-)
+#/[Week1 
+Lab1 (Group Task)]
+
 MUSIC DATA 
 
 SPOTIFY - audio data, sorted by artist/album/genre and Spotify mixes curated for each listener, organised into playlists/liked songs, user interface (catered to preferences and algorithm), data described as audio data, analysed- organised by genre/artist, lyric following, finding songs based from lyrics
