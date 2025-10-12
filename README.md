@@ -1,12 +1,26 @@
 
-# \[Music Curation and Analytics Introduction\]
+# Music Curation and Analytics Introduction
 <!-- Version 1.0 -->
 
-#/[Week1 
-Lab1 (Group Task)]
+### Week 1  
+**Lab 1 (Group Task)**  
 
-MUSIC DATA 
+---
 
-SPOTIFY - audio data, sorted by artist/album/genre and Spotify mixes curated for each listener, organised into playlists/liked songs, user interface (catered to preferences and algorithm), data described as audio data, analysed- organised by genre/artist, lyric following, finding songs based from lyrics
+## Music Data Sources
 
-INSTAGRAM/ TIKTOK - random recommendations- based on friends/ followers, add in preferences, reposting reels/tiktoks pushes onto friends, trends/microtrends, click audio and can see other trends under the sound, popular snippets of songs, recommends songs for posts based off popularity/ liked songs, 
+### **Spotify**
+- Provides **audio data** sorted by artist, album, and genre.  
+- Curates **personalised mixes** and playlists for each listener based on listening history and algorithmic preferences.  
+- Data is described as **audio data** (e.g., tempo, key, danceability).  
+- Analysed and organised by genre, artist, and user interaction (e.g., playlists, liked songs).  
+- Features such as **lyric following** and **song recommendations** enhance discovery (e.g., finding songs by lyrics).
+
+---
+
+### **Instagram / TikTok**
+- Platforms use **algorithmic recommendations** influenced by friends, followers, and engagement.  
+- Users can add preferences and interact with trends or **microtrends**.  
+- **Reposting** reels or TikToks boosts visibility within social networks.  
+- Users can click on an **audio snippet** to explore other videos using the same sound.  
+- Platforms promote **popular sounds** and recommend songs for posts based on trends, popularity, and liked content.
