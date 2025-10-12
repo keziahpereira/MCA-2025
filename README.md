@@ -2,7 +2,7 @@
 # \[Music Curation and Analytics Introduction\]
 <!-- Version 1.0 -->
 
-Week1 
+#Week1 
 Lab1 (Group Task)
 )
 MUSIC DATA 
