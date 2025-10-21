@@ -82,4 +82,25 @@ p {
 .next-link:hover {
   text-decoration: underline;
 }
+ul {
+  margin-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.page-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.prev-link, .next-link {
+  color: #4a3ba3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.prev-link:hover, .next-link:hover {
+  text-decoration: underline;
+}
+
 
