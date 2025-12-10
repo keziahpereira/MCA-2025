@@ -70,8 +70,8 @@
     enableDocument: true
   };
 
-  // Path to your MEI file
-  const file = "Week5.mei";
+  // Correct path to your MEI file
+  const file = "tasks/Week5.mei";
 
   const app = new Verovio.App(document.getElementById("app"), options);
 
@@ -87,15 +87,15 @@
       console.log("MEI loaded successfully.");
     })
     .catch(error => {
-  console.error("Error loading MEI:", error);
+      console.error("Error loading MEI:", error);
 
-  document.getElementById("app").innerHTML = `
-    <p>If the music score does not load, you can download the MEI file here:</p>
-    <a href="${file}" download>Download MEI File</a>
-  `;
-});
-
+      document.getElementById("app").innerHTML = `
+        <p>If the music score does not load, you can download the MEI file here:</p>
+        <a href="${file}" download>Download MEI File</a>
+      `;
+    });
 </script>
+
 
       </section>
 
