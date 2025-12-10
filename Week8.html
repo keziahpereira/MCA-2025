@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 8 Analysing & Extracting Meaning from Audio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+          <a href="Index-2.html"><button>Home</button></a>
+          <a href="week1mca.html"><button>Week 1</button></a>
+          <a href="week2mca.html"><button>Week 2</button></a>
+          <a href="Week3.html"><button>Week 3</button></a>
+          <a href="Week4.html"><button>Week 4</button></a>
+          <a href="Week5.html"><button>Week 5</button></a>
+          <a href="Week7.html"><button>Week 7</button></a>
+          <a href="Week8.html"><button class="active">Week 8</button></a>
+          <a href="Week9.html"><button>Week 9</button></a>
+          <a href="Week10.html"><button>Week 10</button></a>
+        </aside>
+    
+
+    <main class="content">
+      <header>
+        <img src="headerimage.png" alt="Music Curation & Analytics Banner" />
+        <h1>Week 8 Analysing & Extracting Meaning from Audio</h1>
+      </header>
+
+      <!-- TASK 1 -->
+      <section class="card" id="task1">
+        <h2>Task 1: Analyse Audio Tracks</h2>
+        <p>For this task, I selected <strong>three audio tracks</strong> by <strong>Dire Straits</strong> that relate to my chosen theme.</p>
+
+        <h3>Selected Tracks (MP3)</h3>
+<ul>
+  <li>Sultans of Swing – Dire Straits</li>
+  <audio controls>
+    <source src="sos.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <li>Walk of Life – Dire Straits</li>
+  <audio controls>
+    <source src="wol.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <li>Money for Nothing – Dire Straits</li>
+  <audio controls>
+    <source src="mfn.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+</ul>
+
+
+        <h3>Track Information Table</h3>
+<table>
+<thead>
+<tr>
+<th>Track</th>
+<th>Artist</th>
+<th>Composer</th>
+<th>Copyright</th>
+<th>Genre</th>
+<th>Source</th>
+<th>Format</th>
+<th>Channels</th>
+<th>Sample Rate</th>
+<th>Bitrate</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sultans of Swing</td>
+<td>Dire Straits</td>
+<td>Mark Knopfler</td>
+<td>© Warner Records – Used for Educational Purposes Only</td>
+<td>Rock</td>
+<td>Apple Music (Licensed Streaming Source)</td>
+<td>mp3</td>
+<td>2 (stereo)</td>
+<td>48000 Hz</td>
+<td>320000 bps</td>
+<td>05:50</td>
+</tr>
+
+<tr>
+<td>Walk of Life</td>
+<td>Dire Straits</td>
+<td>Mark Knopfler</td>
+<td>© Warner Records – Used for Educational Purposes Only</td>
+<td>Rock</td>
+<td>Apple Music (Licensed Streaming Source)</td>
+<td>mp3</td>
+<td>2 (stereo)</td>
+<td>48000 Hz</td>
+<td>320000 bps</td>
+<td>04:12</td>
+</tr>
+
+<tr>
+<td>Money for Nothing</td>
+<td>Dire Straits</td>
+<td>Mark Knopfler & Sting</td>
+<td>© Warner Records – Used for Educational Purposes Only</td>
+<td>Rock</td>
+<td>Apple Music (Licensed Streaming Source)</td>
+<td>mp3</td>
+<td>2 (stereo)</td>
+<td>48000 Hz</td>
+<td>320000 bps</td>
+<td>08:26</td>
+</tr>
+</tbody>
+</table>
+          
+      </section>
+
+      <!-- TASK 2 -->
+      <section class="card" id="task2">
+        <h2>Task 2: Basic Analysis of Tracks in Sonic Visualiser</h2>
+        <p>Below are waveform and spectrogram images generated in <strong>Sonic Visualiser</strong> for each track.</p>
+
+        <h3>Sultans of Swing</h3>
+        <p><strong>Waveform</strong></p>
+        <img src="week8sultans_waveform.png" alt="Sultans of Swing Waveform" class="analysis-image"/>
+        <p><strong>Spectrogram</strong></p>
+        <img src="week8sultansspectogram.png" alt="Sultans of Swing Spectrogram" class="analysis-image"/>
+
+        <h3>Walk of Life</h3>
+        <p><strong>Waveform</strong></p>
+        <img src="Week8wolwaveform.png" alt="Walk of Life Waveform" class="analysis-image"/>
+        <p><strong>Spectrogram</strong></p>
+        <img src="week8wolspectogram.png" alt="Walk of Life Spectrogram" class="analysis-image"/>
+
+        <h3>Money for Nothing</h3>
+        <p><strong>Waveform</strong></p>
+        <img src="week8mfn_waveform.png" alt="Money for Nothing Waveform" class="analysis-image"/>
+        <p><strong>Spectrogram</strong></p>
+        <img src="week8mfn_spectogram.png" alt="Money for Nothing Spectrogram" class="analysis-image"/>
+      </section>
+
+      <!-- REFLECTION -->
+      <section class="card" id="reflection">
+        <h2>Reflection</h2>
+        <p> This week I explored how audio features become visible using digital tools. Comparing waveforms and spectrograms of the three Dire Straits tracks helped me notice differences in intensity, frequency, and style. Sultans of Swing has strong mid-range guitar melodies, Walk of Life feels more rhythmic and lively, and Money for Nothing has heavier low-frequency content in its iconic riff. One advantage of time-frequency analysis over just looking at the waveform is that it shows how frequencies change over time, giving a clearer picture of the song’s texture and structure.</p>
+      </section>
+
+      <a href="Week9.html" class="next-link">Week 9 ></a>
+    </main>
+  </div>
+
+</body>
+</html>

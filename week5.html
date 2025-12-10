@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 5 — Standards in Curation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <a href="Index-2.html"><button>Introduction</button></a>
+      <a href="week1mca.html"><button>Week1</button></a>
+      <a href="week2mca.html"><button>Week2</button></a>
+      <a href="Week3.html"><button>Week3</button></a>
+      <a href="Week4.html"><button>Week4</button></a>
+      <a href="Week5.html"><button class="active">Week5</button></a>
+     
+      <a href="Week7.html"><button>Week7</button></a>
+      <a href="Week8.html"><button>Week8</button></a>
+      <a href="Week9.html"><button>Week9</button></a>
+      <a href="week10.html"><button>Week10</button></a>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <header>
+        <img src="headerimage.png" alt="Music Curation & Analytics Banner" />
+        <h1>Week 5 — Standards in Curation</h1>
+      </header>
+
+      <!-- Task 1 -->
+      <section class="card">
+        <h2>Task 1: Create a Metadata Schema</h2>
+        <p>The features I chose, along with their values, are listed below:</p>
+
+        <ul>
+          <li><strong>Title</strong></li>
+          <li><strong>Composer / Artist</strong></li>
+          <li><strong>Arranger</strong></li>
+          <li><strong>Publisher</strong></li>
+          <li><strong>Availability</strong></li>
+          <li><strong>Edition</strong></li>
+          <li><strong>Encoder</strong></li>
+        </ul>
+
+        <h3>Download My MEI Document</h3>
+        <a href="Week5(3).mei" download class="download-btn">Download MEI File</a>
+      </section>
+
+      <!-- Verovio Section (Modify MEI Document) -->
+      <section class="card">
+        <h2>Modified MEI Document under Schema</h2>
+
+        <div class="verovio-container">
+          <div id="app">Verovio is loading...</div>
+        </div>
+
+        <script type="module">
+            import 'https://www.verovio.org/javascript/app/verovio-app.js';
+          
+            const options = {
+                defaultView: 'responsive',
+                defaultZoom: 3,
+                enableResponsive: true,
+                enableDocument: true
+            };
+          
+            
+            var file = 'Week5(3).mei';
+          
+            const app = new Verovio.App(document.getElementById("app"), options);
+            fetch(file)
+                .then(response => response.text())
+                .then(text => {
+                    app.loadData(text);
+                });
+          </script>
+          
+      </section>
+
+     
+
+      <a href="Week6.html" class="next-link">Week 6 ></a>
+    </main>
+  </div>
+
+</body>
+</html>
