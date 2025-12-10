@@ -87,27 +87,14 @@
       console.log("MEI loaded successfully.");
     })
     .catch(error => {
-      console.error("Error loading MEI:", error);
+  console.error("Error loading MEI:", error);
 
-      // Replace the Verovio display with a message + download button
-      document.getElementById("app").innerHTML = `
-        <p style="color:black; font-weight:bold;">
-          Download if Unable to load the MEI file: <code>${file}</code>
-        </p>
-        <p>Please download it manually:</p>
-        <a href="${file}" download
-           style="
-             display:inline-block;
-             padding:10px 15px;
-             background:#007bff;
-             color:white;
-             border-radius:5px;
-             text-decoration:none;
-           ">
-          Download MEI File
-        </a>
-      `;
-    });
+  document.getElementById("app").innerHTML = `
+    <p>If the music score does not load, you can download the MEI file here:</p>
+    <a href="${file}" download>Download MEI File</a>
+  `;
+});
+
 </script>
 
       </section>
