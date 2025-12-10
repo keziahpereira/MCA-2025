@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 10 Audio Similarity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <aside class="sidebar">
+      <a href="Index-2.html"><button>Home</button></a>
+      <a href="week1mca.html"><button>Week 1</button></a>
+      <a href="week2mca.html"><button>Week 2</button></a>
+      <a href="Week3.html"><button>Week 3</button></a>
+      <a href="Week4.html"><button>Week 4</button></a>
+      <a href="Week5.html"><button>Week 5 </button></a>
+
+      <a href="Week7.html"><button>Week7</button></a>
+      <a href="Week8.html"><button>Week 8</button></a>
+      <a href="Week9.html"><button>Week 9</button></a>
+      <a href="Week10.html"><button class="active">Week 10</button></a>
+    </aside>
+
+    <main class="content">
+      <header>
+        <img src="headerimage.png" alt="Music Curation & Analytics Banner" />
+        <h1>Week 10 Audio Similarity</h1>
+      </header>
+
+      <!-- TASK 1 -->
+      <section class="card" id="task1">
+        <h2>Task 1: Similarity</h2>
+        <p>
+          For this task, I extracted <strong>Chroma features</strong> in Sonic Visualiser
+          for each of the three tracks from Week 8 and used them to generate visual
+          similarity comparisons.
+        </p>
+
+        <!-- CHROMA FEATURES -->
+        <h3>Chroma Features</h3>
+        <p>
+          The image below shows the chroma output for all three tracks.
+          <br>
+          <strong>Track 1:</strong> Sultans of Swing  
+          <br>
+          <strong>Track 2:</strong> Walk of Life  
+          <br>
+          <strong>Track 3:</strong> Money for Nothing  
+        </p>
+        <img src="week10plotfeatures.png" alt="Chroma Features" class="analysis-image">
+
+        <!-- DIFFERENCE BETWEEN TRACKS -->
+        <h3>Difference Between the Tracks</h3>
+        <p>This comparison highlights where pitch-class activity differs across the three songs.</p>
+        <img src="week10difference.png" alt="Difference Between Tracks" class="analysis-image">
+
+        <!-- 12-NOTE SIMILARITY -->
+        <h3>12-Note Similarity</h3>
+        <p>
+          This matrix represents the similarity of the 12 pitch classes
+          across the three tracks.
+        </p>
+        <img src="12notesimilarity.png" alt="12 Note Similarity" class="analysis-image">
+
+        <!-- MEAN CHROMA FEATURES -->
+        <h3>Mean Chroma Features for All 3 Tracks</h3>
+        <p>
+          The following graph shows the mean chroma distribution for each track,
+          summarising their pitch content tendencies.
+        </p>
+        <img src="week10meanchromatrack.png" alt="Mean Chroma Features" class="analysis-image">
+      </section>
+
+           <!-- TASK 2 -->
+<section class="card" id="task2">
+    <h2>Task 2: Transcription</h2>
+    <p>
+      For this task, I opened my Week 2 piece in MuseScore and exported it as both a WAV file 
+      and an image. I then opened the WAV file in Sonic Visualiser and generated a 
+      Polyphonic Transcription. The outputs below show the original score alongside the 
+      automated transcription created by Sonic Visualiser.
+    </p>
+  
+    <h3>Original Score (PNG)</h3>
+    <img src="week10.png" alt="Original Score" class="analysis-image">
+  
+    <h3>Original WAV File</h3>
+    <audio controls>
+      <source src="week10wol.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  
+    <h3>Transcribed WAV File</h3>
+    <audio controls>
+      <source src="week10transcribed.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  
+    <h3>Screenshot of Auto-Transcribed Score</h3>
+    <img src="Week10result.png" alt="Transcribed Score" class="analysis-image">
+  
+    <h3>Comparison Reflection</h3>
+    <p>
+      When I opened the transcribed piece in MuseScore, I immediately noticed that it looked 
+      very different from the original. Notes were missing or changed, and the rhythms didn’t 
+      match what I saw in the real score. On top of that, everything looked visually messy – 
+      you could clearly see symbols and notes overlapping, which made the transcription 
+      confusing to read. The title, composer, and dynamics were also missing.
+    </p>
+  
+    <p>
+      I also noticed that the audio of the transcription played for longer than the original, 
+      which made it feel slightly off. Overall, the automated transcription was not very 
+      accurate, even though the audio still sounded somewhat similar to the original piece.
+    </p>
+  </section>
+  
+    
+            
+    
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>

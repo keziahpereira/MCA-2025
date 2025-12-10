@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 9 Audio Similarity & Transcription</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <aside class="sidebar">
+      <a href="Index-2.html"><button>Home</button></a>
+      <a href="week1mca.html"><button>Week 1</button></a>
+      <a href="week2mca.html"><button>Week 2</button></a>
+      <a href="Week3.html"><button>Week 3</button></a>
+      <a href="Week4.html"><button>Week 4 </button></a>
+      <a href="Week5.html"><button>Week 5</button></a>
+      <a href="Week7.html"><button>Week 7</button></a>
+      <a href="Week8.html"><button>Week 8</button></a>
+      <a href="Week9.html"><button class="active">Week 9</button></a>
+      <a href="Week10.html"><button>Week 10</button></a>
+    </aside>
+
+    <main class="content">
+      <header>
+        <img src="headerimage.png" alt="Music Curation & Analytics Banner" />
+        <h1>Week 9 Audio Similarity & Transcription</h1>
+      </header>
+
+      <!-- TASK 1 -->
+      <section class="card" id="task1">
+        <h2>Task 1: Extract Features</h2>
+        <p>
+          For this task, I used the <strong>three audio tracks selected in Week 8</strong>.
+          Each image below shows the following features:
+          <strong>Waveform</strong>, <strong>Spectrogram</strong>, 
+          <strong>Mel Frequency Cepstral Coefficients (MFCCs)</strong>, 
+          and a <strong>Chromagram</strong>.
+        </p>
+
+        <h3>Sultans of Swing</h3>
+        <img src="Week9sos.png" alt="Sultans of Swing Features" class="analysis-image">
+
+        <h3>Walk of Life</h3>
+        <img src="Week9wol.png" alt="Walk of Life Features" class="analysis-image">
+
+        <h3>Money for Nothing</h3>
+        <img src="Week9mfn.png" alt="Money for Nothing Features" class="analysis-image">
+      </section>
+
+      <!-- TASK 2 -->
+      <section class="card" id="task2">
+        <h2>Task 2: Compute and Visualize Features with Histograms</h2>
+        <p>
+          For this task, I used Python to compute and visualize histograms of 
+          selected audio features for the same three tracks from Week 8.
+        </p>
+
+        <h3>Sultans of Swing – Feature Histograms</h3>
+        <img src="Week9 track1.png" alt="Sultans Histogram" class="analysis-image">
+
+        <h3>Walk of Life – Feature Histograms</h3>
+        <img src="Week9 track2.png" alt="Walk of Life Histogram" class="analysis-image">
+
+        <h3>Money for Nothing – Feature Histograms</h3>
+        <img src="Week9track3.png" alt="Money for Nothing Histogram" class="analysis-image">
+      </section>
+
+      <!-- REFLECTION -->
+      <section class="card" id="reflection">
+        <h2>Reflection</h2>
+        <p>
+             Overall, the histograms look quite similar to each other, which isn’t surprising since they’re all by the same band, and the songs sound quite similar to each other.. It was really interesting to see these patterns visually, and analysing the histograms gave me some useful insights into the similarities in their style and structure.
+        </p>
+      </section>
+
+      <a href="Week10.html" class="next-link">Week 10 ></a>
+    </main>
+  </div>
+
+</body>
+</html>
